@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { auth } from '../auth';
 
 export default function Dashboard() {
+    //inicializa a função de navegação
   const navigate = useNavigate();
 
   useEffect(() => {
